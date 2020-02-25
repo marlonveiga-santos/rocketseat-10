@@ -1,0 +1,26 @@
+li form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    color: red;
+    margin-top: 3%;
+    padding-top: 3%;
+}
+
+li form label{
+    display:flex;
+    justify-content: space-between;
+}
+
+form button{
+    margin: 1%;
+    box-shadow: 2px 2px 3px 2px #4c7947;
+    transition: ease 0.5s;
+    background: #1d9912;
+}
+form button:hover {
+    box-shadow: 5px 5px 3px 2px #4c7947;
+    transition: ease 0.5s;
+    background: #2db820;
+}

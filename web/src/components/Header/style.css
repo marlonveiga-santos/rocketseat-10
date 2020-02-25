@@ -1,0 +1,21 @@
+.Header{
+    display:flex;
+    font-size: 24px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    height: 8vh;
+    background-color: #7d40e7;
+    color: #fff;
+}
+
+.radar-icon {
+    animation:spin 2s linear infinite;
+}
+
+@keyframes spin { 
+    to {
+        transform: rotate(360deg)
+    }
+}
