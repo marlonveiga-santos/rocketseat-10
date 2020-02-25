@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": " rocketseat-10-mobile",
+    "slug": "rocketseat-10-mobile",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -25,6 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "Desafio da semana Omnistack 10 da Rocketseat. \nAplicação mobile.",
+    "githubUrl": "https://github.com/marlonveiga-santos/rocketseat-10"
   }
 }
